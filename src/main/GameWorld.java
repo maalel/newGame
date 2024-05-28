@@ -145,10 +145,10 @@ public class GameWorld {
 
         if (isValidPosition(newX, newY)) {
             hero.setPosition(newX, newY);
-            System.out.println("Le personnage doit se trouver en : " + "(" + newX + "," + newY + ")");
         } else {
             System.err.println("Le personnage ne peut pas se déplacer dans cette case, puisqu'elle est occupée.");
         }
+        System.out.println("Le personnage doit se trouver en : " + "(" + newX + "," + newY + ")");
 
     }
 
